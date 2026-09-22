@@ -38,19 +38,17 @@ Além do entretenimento, o projeto permitiu colocar em prática conhecimentos te
 
 ### Passo a Passo
 
-1. **Clone o repositório:**
-   ```bash
-   git clone https://github.com/seu-usuario/projeto-almir.git
-   ```
+1. **Baixar o repositório: "Extensao_meme_amir"**
 
-2. **Navegue até a pasta do projeto:**
-   ```bash
-   cd projeto-almir
-   ```
+2. **Navegue até o icone de extensões**
 
-3. **Execute a aplicação:**
-   - Abra o arquivo `index.html` diretamente no seu navegador.
-   - *Ou, se estiver usando um servidor local (como Live Server no VS Code), basta iniciar o servidor.*
+3. **Ative o modo desenvolvedor**
+
+4. **Clique em "Carregar sem compactação"**
+
+5. **Selecione a pasta "Extensao_meme_amir"**
+
+6. **Ative a Extensão**
 
 ---
 
