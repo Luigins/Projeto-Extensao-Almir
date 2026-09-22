@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Minha Nova Aba",
+  "version": "1.0",
+  "description": "Uma página personalizada para a nova aba do Chrome.",
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+
+    "icons": {
+        "128": "amir-uber-eats-explainer.jpg"
+    }
+}

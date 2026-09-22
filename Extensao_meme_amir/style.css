@@ -1,0 +1,131 @@
+html, body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-image: url("amir-uber-eats-explainer.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+main {
+    text-align: center;
+}
+
+h1 {
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+#clock {
+    font-size: 70px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+p {
+    font-size: 20px;
+    opacity: 0.8;
+}
+
+.links {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.links a {
+    padding: 12px 20px;
+
+    background: rgba(162, 144, 144, 0.526);
+    color: white;
+
+    text-decoration: none;
+    border-radius: 10px;
+
+    transition: 0.3s;
+}
+
+.links a:hover {
+    background: rgba(255, 255, 255, 0.25);
+    transform: translateY(-3px);
+}
+
+
+.centro {
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 30px;
+}
+
+h1 {
+    font-size: 80px;
+    text-align: center;
+    letter-spacing: 5px;
+
+    text-shadow: 0 4px 15px rgb(0, 0, 0);
+}
+
+form {
+
+    width: 600px;
+    height: 60px;
+
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+
+    background: rgba(142, 112, 56, 0.215);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
+    border-radius: 30px;
+
+    backdrop-filter: blur(10px);
+}
+
+input {
+    flex: 1;
+    height: 100%;
+
+    padding: 0 25px;
+
+    border: none;
+    outline: none;
+
+    background: transparent;
+
+    color: white;
+    font-size: 18px;
+}
+
+input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+button {
+    width: 70px;
+    height: 100%;
+
+    border: none;
+    background: transparent;
+
+    color: white;
+    font-size: 22px;
+
+    cursor: pointer;
+}
+
